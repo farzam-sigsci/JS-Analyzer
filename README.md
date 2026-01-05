@@ -4,7 +4,6 @@ A powerful Burp Suite extension for JavaScript static analysis. Extracts API end
 
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Extension-orange)
 ![Python](https://img.shields.io/badge/Python-Jython%202.7-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Features
 
