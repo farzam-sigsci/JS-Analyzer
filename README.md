@@ -30,7 +30,7 @@ A powerful Burp Suite extension for JavaScript static analysis. Extracts API end
 ## Usage
 
 1. **Browse** websites with your browser proxied through Burp Suite
-2. **Right-click** on any response in:
+2. **Right-click** on any raw(s) containing JS response in (either of following tabs):
    - Proxy > HTTP history
    - Target > Site map
    - Repeater
@@ -62,7 +62,7 @@ You can select multiple requests from HTTP history or Dashboard and send it all 
 | Private Keys | `-----BEGIN PRIVATE KEY-----` |
 | Database URLs | `mongodb://`, `postgres://`, `mysql://` |
 
-#Note: Feel free to fork and add more secret detection as required. 
+#Note: Feel free to fork and add more secrets detections as required. 
 
 ### Noise Filtering
 The extension automatically filters out:
@@ -125,7 +125,6 @@ if __name__ == '__main__':
 ```
 JSextension/
 ├── js_analyzer.py          # Main Burp extension entry point
-├── js_analyzer_engine.py   # Standalone analysis engine (for APIs)
 ├── ui/
 │   ├── __init__.py
 │   └── results_panel.py    # Burp UI panel
