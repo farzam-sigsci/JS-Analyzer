@@ -140,9 +140,6 @@ Contributions are welcome!
 - Add new endpoint patterns
 - Report bugs or issues
 
-## License
-
-MIT License - see [LICENSE](LICENSE) file.
 
 ## Credits
 
